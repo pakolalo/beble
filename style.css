@@ -39,9 +39,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #000428;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #004e92b2, #000428b2),url(./assets/images/alvaro-pinot-czDvRp5V2b0-unsplash.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #004e92b2, #000428b2),url(./assets/images/alvaro-pinot-czDvRp5V2b0-unsplash.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #004e92b2, #000428b2),url(./assets/images/alvaro-pinot-czDvRp5V2b0-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -215,9 +213,7 @@ html {
     left: 0;
     width: 100%;
     height:70vh;
-    background: #000428;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #004e92b2, #000428b2),url(./assets/images/samuel-zeller-0rxmzg-Q1Lk-unsplash.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #004e92b2, #000428b2),url(./assets/images/samuel-zeller-0rxmzg-Q1Lk-unsplash.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #004e92b2, #000428b2),url(./assets/images/samuel-zeller-0rxmzg-Q1Lk-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -279,9 +275,7 @@ html {
 
 .ourservices__container{
     text-align: center;
-    background: #000428;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #004e92b2, #000428b2),url(./assets/images/Ativo-1.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #004e92b2, #000428b2),url(./assets/images/Ativo-1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #004e92b2, #000428b2),url(./assets/images/Ativo-1.jpg); 
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -366,9 +360,7 @@ html {
 }
 
 .footer {
-    background: #000428;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #004e92, #000428);
 }
 
 .footer__container {
@@ -432,9 +424,7 @@ html {
 
     .nav__link--menu {
         position: fixed;
-        background: #000428;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, #004e92, #000428);
         top: 0;
         left: 0;
         width: 100%;
@@ -475,10 +465,6 @@ html {
 }
 
 @media(max-width:600px) {
-    .hero::before {
-        background-attachment:unset;
-    }
-
     .nav {
         padding: 25px 0;
     }
@@ -504,16 +490,8 @@ html {
         width: 300px;
     }
 
-    .logo__container::before {
-        background-attachment: unset;
-    }
-
     .services__container{
         flex-direction: column;
-    }
-
-    .ourservices__container{
-        background-attachment: unset;
     }
 
     .nav--footer {
