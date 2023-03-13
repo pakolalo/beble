@@ -28,7 +28,7 @@
                     <a href="./nosotros.html" class="nav__links">Nosotros</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Contacto</a>
+                    <a href="./contacto.html" class="nav__links">Contacto</a>
                 </li>
                 <li class="nav__items">
                     <a href="#" class="nav__links">English</a>
@@ -50,7 +50,93 @@
         <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fdfdfd;"></path></svg></div>       
     </header>
     <main>
-
+        <h1 class="subtitle">¿Cómo podemos apoyarte?</h1>
+        <form action="" class="form__container container" id="form">
+            <div class="form__group" id="group__name">
+                <label for="name" class="form__label">Nombre</label>
+                <div class="form__group-input">
+                    <input type="text" class="form__input" name="name" id="name" placeholder="Jhon" autocomplete="name" required>
+                    <img src="./assets/icons/bx-message-square-x.svg" alt="x alert image" class="form__validation-status square_x">
+                    <img src="./assets/icons/bx-message-square-check.svg" alt="square check image" class="form__validation-status2 square_check">
+                </div>
+                <p class="form__input-error">Sólo acepta letras</p>
+            </div>
+            <div class="form__group" id="group__lastname">
+                <label for="lastname" class="form__label">Apellido</label>
+                <div class="form__group-input">
+                    <input type="text" class="form__input" name="lastname" id="lastname" placeholder="Doe" required>
+                    <img src="./assets/icons/bx-message-square-x.svg" alt="x alert image" class="form__validation-status square_x">
+                    <img src="./assets/icons/bx-message-square-check.svg" alt="square check image" class="form__validation-status2 square_check">
+                </div>
+                <p class="form__input-error">Sólo acepta letras</p>
+            </div>
+            <div class="form__group" id="group__company">
+                <label for="company" class="form__label">Compañia</label>
+                <div class="form__group-input">
+                    <input type="text" class="form__input" name="company" id="company" placeholder="Beble" required>
+                    <img src="./assets/icons/bx-message-square-x.svg" alt="x alert image" class="form__validation-status square_x">
+                    <img src="./assets/icons/bx-message-square-check.svg" alt="square check image" class="form__validation-status2 square_check">
+                </div>
+                <p class="form__input-error">Campo obligatorio</p>
+            </div>
+            <div class="form__group" id="group__mail">
+                <label for="mail" class="form__label">Correo electrónico</label>
+                <div class="form__group-input">
+                    <input type="email" class="form__input" name="mail" id="mail" placeholder="user@example.com" autocomplete="email" required>
+                    <img src="./assets/icons/bx-message-square-x.svg" alt="x alert image" class="form__validation-status square_x">
+                    <img src="./assets/icons/bx-message-square-check.svg" alt="square check image" class="form__validation-status2 square_check">
+                </div>
+                <p class="form__input-error">Campo obligatorio</p>
+            </div>
+            <div class="form__group" id="group__number">
+                <label for="number" class="form__label">Teléfono celular</label>
+                <div class="form__group-input">
+                    <input type="number" class="form__input" name="number" id="number" placeholder="5530353610" autocomplete="number" required>
+                    <img src="./assets/icons/bx-message-square-x.svg" alt="x alert image" class="form__validation-status square_x">
+                    <img src="./assets/icons/bx-message-square-check.svg" alt="square check image" class="form__validation-status2 square_check">
+                </div>
+                <p class="form__input-error">Sólo acepta números de entre 7 y 14 dígitos</p>
+            </div>
+            <div class="form__group" id="group__sector">
+                <label for="sector" class="form__label">Giro de empresa</label>
+                <div class="form__group-input">
+                    <select id="sector" class="form__input" name="sector" required>
+                        <option value="Banca / Fintech">Banca / Fintech</option>
+                        <option value="Gobierno">Gobierno</option>
+                        <option value="Aseguradora">Aseguradora</option>
+                        <option value="Head Hunter">Head Hunter</option>
+                        <option value="comercial">Comercial</option>
+                        <option value="Retail">Retail</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                    <img src="./assets/icons/bx-message-square-x.svg" alt="x alert image" class="form__validation-status square_x">
+                    <img src="./assets/icons/bx-message-square-check.svg" alt="square check image" class="form__validation-status2 square_check">
+                </div>
+                <p class="form__input-error">Campo obligatorio</p>
+            </div>
+            <div class="form__group" id="group__comment">
+                <label for="comment" class="form__label">Comentario o mensaje</label>
+                <div class="form__group-input">
+                    <input type="text" class="form__input" name="comment" id="comment" placeholder="lorem" required>
+                    <img src="./assets/icons/bx-message-square-x.svg" alt="x alert image" class="form__validation-status square_x">
+                    <img src="./assets/icons/bx-message-square-check.svg" alt="square check image" class="form__validation-status2 square_check">
+                </div>
+                <p class="form__input-error">Campo obligatorio</p>
+            </div>
+            <div class="form__group-terms" id="group__terms">
+                <label class="form__label">
+                    <input class="form__checkbox" type="checkbox" name="terms" id="terms" required>
+                    Acepto los Términos y Condiciones
+                </label>
+            </div>
+            <div class="form__message" id="form__message">
+                <p><img src="./assets/icons/bxs-message-rounded-error.svg" alt="message rounded error image" class="form__message-img"><b>Error:</b> Falta(n) algún(os) campo(s) por llenar</p>
+            </div>
+            <div class="form__button-send">
+                <button type="submit" class="form__btn">Enviar</button>
+                <p class="form__message-succes" id="form__message-succes">Información enviada exitosamente!</p>
+            </div>
+        </form>
     </main>
     <footer class="footer">
         <section class="footer__container container">
@@ -80,5 +166,6 @@
         </section>
     </footer>
     <script src="./js/menu.js"></script>
+    <script src="./js/form.js"></script>
 </body>
 </html>
