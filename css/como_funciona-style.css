@@ -149,22 +149,10 @@ html {
     transition: .3s;
 }
 
-.solution__container {
-    width: 90%;
-    height: auto;
+.solution__container{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2em;
-}
-
-.solution__container--img {
-    width: 100%;
-}
-
-.solution__container--img2 {
-    width: 100%;
 }
 
 .footer {
