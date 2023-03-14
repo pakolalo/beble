@@ -9,15 +9,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./assets/images/favicon_32x32.ico" type="image/x-icon">
-    <title>Beble</title>
+    <title>Inicio-Beble</title>
 </head>
 <body>
     <header class="hero">
         <nav class="nav container">
             <div class="nav__logo">
-                <img src="./assets/images/LOGO-16.png" alt="Beble logo">
+                <img src="./assets/images/LOGO-16.png" alt="Beble logo" id="scroll_nav__logo" class="top">
             </div>
-            <ul class="nav__link nav__link--menu">
+            <ul class="nav__link nav__link--menu top" id="scroll_nav__link">
                 <li class="nav__items">
                     <a href="./index.html" class="nav__links">Inicio</a>
                 </li>
@@ -34,7 +34,7 @@
                     <a href="#" class="nav__links">English</a>
                 </li>
                 <li class="nav__items">
-                    <a href="https://beble.mx/Admin/Login.aspx" class="nav__links button ">Login</a>
+                    <a href="https://beble.mx/Admin/Login.aspx" class="nav__links button bottom">Login</a>
                 </li>
                 <img class="nav__close" src="./assets/icons/bx-x-circle.svg" alt="Close window">
             </ul>
@@ -44,30 +44,30 @@
         </nav>
         <section class="hero__container container">
             <div class="hero__container--text">
-                <h1   h1 class="hero__title">Una forma de Verificación Digital de Identidad para conocer y contactar a tus clientes.</h1>
-                <a class="button" href="./como_funciona.html">¿Cómo funciona?</a>
+                <h1   h1 class="hero__title left" id="scroll_hero__title">Una forma de Verificación Digital de Identidad para conocer y contactar a tus clientes.</h1>
+                <a class="button bottom" href="./como_funciona.html" id="scroll_button">¿Cómo funciona?</a>
             </div>
             <div class="hero__container--img">
-                <img src="./assets/images/beble_iphone.png" class="hero__img" alt="beble logo on a cellphone">
+                <img src="./assets/images/beble_iphone.png" class="hero__img right" alt="beble logo on a cellphone" id="scroll_hero__img">
             </div>
         </section>
         <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fdfdfd;"></path></svg></div>       
     </header>
     <main>
         <section class="container functions">
-            <h2 class="subtitle">¿Cómo funciona Beble?</h2>
+            <h2 class="subtitle top" id="scroll_subtitle1">¿Cómo funciona Beble?</h2>
             <div class="functions__main">
-                <article class="functions__card">
+                <article class="functions__card top" id="functions__card1">
                     <img class="functions__card--img" src="./assets/icons/bx-archive-in.svg" alt="Archive in image">
                     <h3 class="functions__card--title">Recopilamos</h3>
                     <p class="functions__card--p">Beble se adapta a tus procesos respondiendo a tus necesidades a través de nuestras Appis u Onboarding</p>
                 </article>
-                <article class="functions__card">
+                <article class="functions__card top" id="functions__card2">
                     <img class="functions__card--img" src="./assets/icons/bx-message-check.svg" alt="Message check">
                     <h3 class="functions__card--title">Validamos</h3>
                     <p class="functions__card--p">Usamos tecnología propia para analizar los datos y garantizar la información captada</p>
                 </article>
-                <article class="functions__card">
+                <article class="functions__card top" id="functions__card3">
                     <img class="functions__card--img" src="./assets/icons/bxs-user-badge.svg" alt="User badge">
                     <h3 class="functions__card--title">Entregamos</h3>
                     <p class="functions__card--p">Creamos el expediente digital de tu clientes, para ayudarte a tomar una mejor decisión.</p>
@@ -86,17 +86,17 @@
         </section>
         <section class="services__container container">
                 <div class="services__container--text">
-                    <h2 class="subtitle">Servicios</h2>
-                    <p class="services__container--p">En Beble contamos con Appis propias para ayudarte en la validación de identidad de tu cliente</p>
+                    <h2 class="subtitle top" id="scroll_subtitle2">Servicios</h2>
+                    <p class="services__container--p left" id="scroll_services__container_p">En Beble contamos con Appis propias para ayudarte en la validación de identidad de tu cliente</p>
                 </div>
                 <div class="services__container--img">
-                    <img class="services__img" src="./assets/images/computer.jpg" alt="Computer on a desk">
+                    <img class="services__img right" id="scroll_services__img" src="./assets/images/computer.jpg" alt="Computer on a desk">
                 </div>
         </section>
         <section class="ourservices__container">
             <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #fdfdfd;"></path></svg></div>
-            <h2 class="ourservices__subtitle subtitle">Nuestros Servicios:</h2>
-            <div class="ourservices__main">
+            <h2 class="ourservices__subtitle subtitle top" id="scroll_subtitle3">Nuestros Servicios:</h2>
+            <div class="ourservices__main top" id="scroll_ourservices__main">
                 <article class="ourservices__card">
                     <img src="./assets/icons/bxs-id-card.svg" alt="id card" class="ourservices__img">
                     <h3 class="ourservices__title">Identificación Oficial</h3>
@@ -133,8 +133,8 @@
             <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C150.00,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fdfdfd;"></path></svg></div>
         </section>
         <section class="whowesupport__container container">
-            <h2 class="subtitle">¿A quiénes apoyamos?</h2>
-            <div class="whowesupport__main">
+            <h2 class="subtitle top" id="scroll_subtitle4">¿A quiénes apoyamos?</h2>
+            <div class="whowesupport__main top" id="scroll_whowesupport__main">
                 <article class="whowesupport__card">
                     <img src="./assets/icons/bxs-credit-card.svg" alt="Credit card image" class="ourservices__img">
                     <h3 class="whowesupport__title">Banca / Fintech</h3>
@@ -165,7 +165,7 @@
     <footer class="footer">
         <section class="footer__container container">
             <nav class="nav nav--footer">
-                <ul class="nav__link nav__link--footer">
+                <ul class="nav__link nav__link--footer" id="scroll_nav__link2">
                     <li class="nav__items">
                         <a href="#" class="nav__links">Inicio</a>
                     </li>
@@ -190,5 +190,6 @@
         </section>
     </footer>
     <script src="./js/menu.js"></script>
+    <script src="./js/scrollindex.js"></script>
 </body>
 </html>
